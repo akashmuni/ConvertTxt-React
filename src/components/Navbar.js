@@ -22,7 +22,7 @@ export default function Navbar(props) {
         style={{ backgroundColor: props.mode === "light" ? "#eee" : "black" }}
       >
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/ConvertTxt-React">
             <b>
               Convert<span style={{ color: "red" }}>Txt</span>
             </b>
