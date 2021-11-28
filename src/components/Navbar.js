@@ -22,7 +22,7 @@ export default function Navbar(props) {
         style={{ backgroundColor: props.mode === "light" ? "#eee" : "black" }}
       >
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/ConvertTxt-React">
+          <Link className="navbar-brand" to="/">
             <b>
               Convert<span style={{ color: "red" }}>Txt</span>
             </b>
@@ -45,7 +45,7 @@ export default function Navbar(props) {
                   className="nav-link"
                   id="home"
                   aria-current="page"
-                  to="/ConvertTxt-React"
+                  to="/"
                   style={{ color: props.mode === "dark" ? "white" : "black" }}
                 >
                   Home
