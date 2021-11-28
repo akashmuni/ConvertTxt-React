@@ -45,7 +45,7 @@ export default function Navbar(props) {
                   className="nav-link"
                   id="home"
                   aria-current="page"
-                  to="/"
+                  to="/ConvertTxt-React"
                   style={{ color: props.mode === "dark" ? "white" : "black" }}
                 >
                   Home

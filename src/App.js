@@ -46,7 +46,7 @@ function App() {
             <Route exact path="/about" element={<About mode={mode} />} />
             <Route
               exact
-              path="/"
+              path="/ConvertTxt-React"
               element={
                 <TextForm
                   mode={mode}
